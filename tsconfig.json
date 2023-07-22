@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react",
+
+    // компилятор обрабатывает не только ts, но и js файлы
+    "allowJs": true,
+    "moduleResolution": "node",
+
+    // позволяет работать с пакетами common js через import
+    "esModuleInterop": true,
+
+    // вместо import * as path from 'path'
+    // можно так import path from 'path'
+    "allowSyntheticDefaultImports": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

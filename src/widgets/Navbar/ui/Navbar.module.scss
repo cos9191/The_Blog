@@ -1,0 +1,21 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+
+    padding: 0 20px;
+    width: 100%;
+    min-height: var(--navbar-min-heigh);
+
+    background: var(--bg-color-inverted);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+
+    margin-left: auto;
+}

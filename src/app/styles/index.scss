@@ -1,4 +1,4 @@
-@import "./reset";
+@import "reset";
 @import "./variables/global";
 @import "./themes/light";
 @import "./themes/dark";
@@ -10,10 +10,4 @@
     color: var(--primary-color);
 
     min-height: 100vh;
-}
-
-.app nav {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 10px;
 }

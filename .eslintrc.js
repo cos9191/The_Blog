@@ -40,6 +40,5 @@ module.exports = {
         'react/jsx-indent-props': [2, 4],
         '@typescript-eslint/indent': [2, 4],
         'no-unused-vars': 'warn',
-        // 'i18next/no-literal-string': [2, { markupOnly: true, except: ['to'] }],
     }
 }

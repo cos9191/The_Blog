@@ -1,14 +1,11 @@
 :root {
-
     // Fonts
     // ---------------------------------
 
-    --font-family-main: Consolas, Arial, sans-serif;
-
+    --font-family-main: consolas, arial, sans-serif;
     --font-size-m: 16px;
     --font-line-m: 24px;
     --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
-
     --font-size-l: 24px;
     --font-line-l: 32px;
     --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
@@ -18,22 +15,21 @@
 
     // Default
 
-    --color-default-black:               #000000;
-    --color-default-white:               #ffffff;
-    --color-transparent:                 rgba(255, 255, 255, 0);
+    --color-default-black: #000;
+    --color-default-white: #fff;
+    --color-transparent: rgb(255 255 255 / 0%);
 
     // Project palette
     // для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
 
-    $color-neon-blue:                   #2c39f2;
-    $color-tory-blue:                   #030a1a;
-    $color-sapphire:                    #102654;
+    $color-neon-blue: #2c39f2;
+    $color-tory-blue: #030a1a;
+    $color-sapphire: #102654;
 
     // Sizes
     // ---------------------------------
 
     --step: 4px;
-
     --navbar-min-heigh: calc(12 * var(--step));
     --sidebar-width: calc(75 * var(--step));
     --sidebar-width-collapsed: calc(20 * var(--step));
@@ -41,11 +37,11 @@
     // Animation
     // ---------------------------------
 
-    --tf-default:                        ease;
-    --trans-default:                     0.3s var(--tf-default);
+    --tf-default: ease;
+    --trans-default: 0.3s var(--tf-default);
 
     // Viewports
     // ---------------------------------
 
-    --vp-320:                            320px;
+    --vp-320: 320px;
 }

@@ -1,4 +1,8 @@
 {
+    "include": [
+        "./",
+        ".eslintrc.js"
+    ],
     "compilerOptions": {
         "outDir": "./dist/",
         "noImplicitAny": true,
@@ -17,7 +21,7 @@
 
         // вместо import * as path from 'path'
         // можно так import path from 'path'
-        "allowSyntheticDefaultImports": true,
+        "allowSyntheticDefaultImports": true
     },
     "ts-node": {
         "compilerOptions": {

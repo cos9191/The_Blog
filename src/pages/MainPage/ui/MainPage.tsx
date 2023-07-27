@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { type FC } from 'react'
+import { FC } from 'react'
 
 const MainPage: FC = () => {
     const { t } = useTranslation()

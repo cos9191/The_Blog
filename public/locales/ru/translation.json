@@ -1,6 +1,7 @@
 {
     "test_text": "тестовый текст",
-    "set_lang": "English",
+    "set_lang": "Русский",
     "main_page": "Главная",
-    "about_page": "О Нас"
+    "about_page": "О Нас",
+    "404": "Страница не найдена"
 }

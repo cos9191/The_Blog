@@ -1,14 +1,14 @@
-import {Suspense} from "react";
-import {Route, Routes} from "react-router-dom";
-import {routesConfig} from "shared/config/routesConfig/routesConfig";
+import { Suspense } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import { routesConfig } from 'shared/config/routesConfig/routesConfig'
+import { PageLoader } from 'widgets/PageLoader/PageLoader'
 
-export const AppRouter = () => {
-
+export const AppRouter = (): JSX.Element => {
     return (
         <div className={'page-wrapper'}>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<PageLoader />}>
                 <Routes>
-                    {Object.values(routesConfig).map(({element, path}) =>
+                    {Object.values(routesConfig).map(({ element, path }) =>
                         <Route
                             key={path}
                             path={path}
@@ -19,4 +19,4 @@ export const AppRouter = () => {
             </Suspense>
         </div>
     )
-};
+}
